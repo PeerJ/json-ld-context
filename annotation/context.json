@@ -4,7 +4,7 @@
       "@type": "@id",
       "@id": "http://www.w3.org/ns/oa#hasBody"
     },
-    "targets": {
+    "target": {
       "@type": "@id",
       "@id": "http://www.w3.org/ns/oa#hasTarget"
     },
