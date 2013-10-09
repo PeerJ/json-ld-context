@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "title": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "publisher": "http://schema.org/publisher",
+    "date": {
+      "@id": "http://schema.org/datePublished",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "language": {
+      "@id": "http://schema.org/inLanguage",
+      "@type": "http://www.w3.org/2001/XMLSchema#language"
+    },
+    "author": {
+      "@container": "@list",
+      "@id": "http://schema.org/author",
+      "@type": "http://schema.org/Person"
+    },
+    "author_institution": {
+      "@container": "@list",
+      "@id": "http://schema.org/address"
+    },
+    "keywords": {
+      "@container": "@set",
+      "@id": "http://schema.org/keywords"
+    }
+  }
+}

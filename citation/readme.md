@@ -1,0 +1,1 @@
+Maps PeerJ article citation JSON to Schema.org properties

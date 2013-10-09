@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "body": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#hasBody"
+    },
+    "targets": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#hasTarget"
+    },
+    "source": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#hasSource"
+    },
+    "selector": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#hasSelector"
+    },
+    "state": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#hasState"
+    },
+    "scope": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#hasScope"
+    },
+    "annotator": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#annotatedBy"
+    },
+    "serializer": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#serializedBy"
+    },
+    "motivation": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#motivatedBy"
+    },
+    "sameAs": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#equivalentTo"
+    },
+    "style": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#styledBy"
+    },
+    "conformsTo": {
+      "@type": "@id",
+      "@id": "http://purl.org/dc/terms/conformsTo"
+    },
+    "item": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/ns/oa#item"
+    },
+    "first": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+    },
+    "rest": {
+      "@type": "@id",
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@container": "@list"
+    },
+    "chars": "http://www.w3.org/2011/content#chars",
+    "bytes": "http://www.w3.org/2011/content#bytes",
+    "format": "http://purl.org/dc/elements/1.1/format",
+    "annotationDate": "http://www.w3.org/ns/oa#annotatedAt",
+    "serializationDate": "http://www.w3.org/ns/oa#serializedAt",
+    "when": "http://www.w3.org/ns/oa#when",
+    "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "start": "http://www.w3.org/ns/oa#start",
+    "end": "http://www.w3.org/ns/oa#end",
+    "exact": "http://www.w3.org/ns/oa#exact",
+    "prefix": "http://www.w3.org/ns/oa#prefix",
+    "suffix": "http://www.w3.org/ns/oa#suffix",
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "name": "http://xmlns.com/foaf/0.1/name",
+    "mbox": "http://xmlns.com/foaf/0.1/mbox",
+    "styleClass": "http://www.w3.org/ns/oa#styleClass"
+  }
+}
