@@ -64,6 +64,7 @@
     "chars": "http://www.w3.org/2011/content#chars",
     "bytes": "http://www.w3.org/2011/content#bytes",
     "format": "http://purl.org/dc/elements/1.1/format",
+    "title": "http://purl.org/dc/elements/1.1/title",
     "annotationDate": "http://www.w3.org/ns/oa#annotatedAt",
     "serializationDate": "http://www.w3.org/ns/oa#serializedAt",
     "when": "http://www.w3.org/ns/oa#when",
