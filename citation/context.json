@@ -1,6 +1,9 @@
 {
   "@context": {
-    "fulltext_html_url": "http://schema.org/url",
+    "fulltext_html_url": {
+      "@id": "http://schema.org/url",
+      "@type": "@id"
+    },
     "title": "http://schema.org/name",
     "description": "http://schema.org/description",
     "publisher": "http://schema.org/publisher",
