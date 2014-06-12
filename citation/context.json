@@ -6,7 +6,10 @@
     },
     "title": "http://schema.org/name",
     "description": "http://schema.org/description",
-    "publisher": "http://schema.org/publisher",
+    "publisher": {
+      "@id": "http://schema.org/publisher",
+      "@type": "http://schema.org/Organization"
+    },
     "date": {
       "@id": "http://schema.org/datePublished",
       "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -22,7 +25,8 @@
     },
     "author_institution": {
       "@container": "@list",
-      "@id": "http://schema.org/address"
+      "@id": "http://schema.org/address",
+      "@type": "http://schema.org/PostalAddress"
     },
     "keywords": {
       "@container": "@set",
